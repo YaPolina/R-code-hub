@@ -3,3 +3,15 @@ title: "Test_R_Markdown"
 output: html_document
 date: "2024-09-10"
 ---
+
+# ctrl + alt + i
+# control + option + i
+
+```{r}
+#install.packages("car")
+library(car)
+data <- mtcars
+plot(mtcars$disp)
+
+```
+
